@@ -160,7 +160,7 @@ You are expressly forbidden to:
  *   Rating: 1
  */
 int bitOr(int x, int y) {
-  /* Utilize DeMorgan's Law to return Not (!) Not (!) x AND (&) Not (!) x. 
+  /* Utilize DeMorgan's Law to return Not (~) Not (~) x AND (&) Not (~) x. 
    */
   return ~(~x & ~y);
 }
